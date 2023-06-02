@@ -1,0 +1,529 @@
+/*
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: beige;
+}
+.heading{
+    color: crimson;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-shadow: 0px 2px 4px #ffe9c5 ;
+    margin: 70px 0px;
+    
+}
+.heading2{
+    color: blue;
+    text-align:left;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.elements{
+    color: purple;
+    text-align:left;
+    text-transform: capitalize;
+    margin-left: 60px;
+    font-size: medium;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.writer{
+    color: black;
+    text-align:left;
+    text-transform: capitalize;
+    margin-left: 1000px;
+}
+.pic{
+    margin-top: 70px;
+    font-size: medium;
+    color: deeppink;
+    font-weight: 500;
+    font-size:large;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.img-div{
+ display: flex;
+ justify-content: center;
+}
+.img-div img {
+    width: 300px;
+    height: 300px;
+}
+*/
+/*
+body {
+    background-color: #b4f2e1;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    margin-top: -30px;
+}
+
+h1{
+    padding: 20px 20px;
+    background-color: #ffe9c5;
+    color: #fa9191;
+    border-radius: 20px;
+}
+
+span{
+    color: #eb6383;
+}
+*/
+
+
+
+/*
+//netflix series 
+
+body{
+    background-image: linear-gradient(315deg, #2b0909 0%, #1f0606 74%);
+    background-size: 100%; 
+    
+}
+body{
+    margin-bottom: 150px;
+}
+h1{
+    color: red;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 800;
+    background-image: linear-gradient(315deg, #f1ebeb 0%, #f8eaea 74%);
+     margin-top: 50px;
+    margin-bottom: 50px; 
+    font-size: 2.1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.series{
+    display: flex;
+    align-content: center;
+}
+.series2{
+    display: flex;
+}
+.series3{
+    display: flex;
+}
+.col img{
+    width: 250px;
+   margin-left: 15px;
+   margin-right: 15px;
+    height: 250px;   
+    border-color: rgb(223, 220, 220);
+    box-sizing: content-box;
+    border-style:dashed;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    margin-left: 14px;
+    margin-right: 14px;
+    justify-content: center;
+    
+    box-sizing: content-box;
+    
+}
+.card-title{
+    text-align: center;
+font-size: large;
+font-style: bold;
+color: aliceblue;
+margin-top: 0px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card-text{
+text-align: center;
+font-size: larger;
+font-style: bold;
+font-weight: 700;
+margin-top: 0px;
+color: aliceblue;
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.card button{
+background-color:azure;
+ height: 35px;
+ margin-bottom: 30px;
+ border-radius: 3px;
+ font-size: medium;
+ border-style: double;
+ cursor: pointer;
+}
+*/
+
+
+
+/* forms */
+/*
+*{
+    box-sizing: border-box;
+    padding :0;
+    margin: 0;
+    background-color: beige;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+div{
+    width: 100%;
+    height: 100vh;
+    background: purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    color: white;
+    background :transparent;
+    text-shadow: 0 2px 2px black;
+}
+
+input {
+    width: 400px;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    margin: 20px 0;
+    text-align: center;
+}
+
+button{
+    line-height: 24px;
+    padding: 0 20px;
+    background: plum;
+    color: black;
+    border: 2px solid aliceblue;
+    outline: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    height: 35px;
+    font-size: medium ;
+}
+*/
+
+
+/*  TO DO LIST */
+/*
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.main_div {
+    width: 100%;
+    height: 100vh;
+    background-color:#7bed9f;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.center_div {
+    width: 33%;
+    height : 85vh;
+    background-color: #f4f4f4;
+    box-shadow: 5px 5px 25px -5px black(0,0,0,0.5);
+    border-radius: 15px;
+}
+
+h1{
+    color: rgba(0,0,0,0.87);
+    margin-bottom: 30px;
+    font-size: 50px;
+    min-width: 64px;
+    box-sizing: border-box;
+    font-family: "Comfortaa", cursive;
+    font-weight: 500;
+    border-radius: 4px;
+    letter-spacing: 0.02857em;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+}
+
+input{
+ text-align: center;
+ height: 30px;
+ border: none;
+ background: transparent;
+ font-size: 20px;
+ font-weight: 500;
+ width: 60%;
+ border-bottom: 2px solid #8566aa;
+ outline: none;
+ margin-right: 20px;
+}
+
+.newBtn{
+    width: 50px;
+    height: 55px;
+    background-color: #16a085 !important;
+    color: white !important;
+    box-shadow: 5px 5px 15px -5px rgba(0,0 ,0, 0.3); 
+    border-radius: 50% !important;
+}
+
+.newBtn:hover{
+    color: #16a085 !important;
+    background: white !important;
+}
+
+
+.MuiSvglcon-root{
+    width: 2rem !important;
+    height: 2rem !important;
+}
+ol{
+    margin-top: 30px;
+}
+
+ol li{
+    padding-left: 0px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #8566aa;
+    text-transform: capitalize;
+    list-style: none;
+}
+
+.todo_style {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+   }
+   
+.todo_style .deleteIcon{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #8566aa;
+ border-radius: 50%;
+ margin: 0 15px 0 35px;
+    padding: 5px;
+    color: aliceblue;
+ box-shadow: 5px 5px 15px -5px black(0,0,0,0.3);
+}
+
+.todo_style .deleteIcon:hover{
+    background-color: transparent;
+    color: crimson;
+    box-shadow: 5px 5px 15px -5px rgba(255,0,0,0.5);
+}
+
+   .todo_style .fa-times:hover .list_style{
+       color: crimson;
+   }
+
+@media (max-width: 768px){
+    .center_div{
+        width : 55%
+    }
+
+    .todo_style .fa-times{
+        margin: 0 15px 0 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    button{
+        margin-left: 5px;
+        min-height: 40px;
+        width: 40px;
+        color: #fff;
+        font-size: 30px;
+
+    }
+}
+*/
+
+/* keep clone */
+
+*{
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+    
+  }
+  .header {
+    width: 100%;
+    line-height: 75px;
+    background-color: #f5ba13;
+    display: flex;
+    flex-flow: row;
+    color: white;
+    box-shadow: 5px 3px 15px -5px rgba(0,0,0,0.3);
+  }
+  .header h1{
+    margin-left: 37%;
+  }
+  
+  .logo img {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .main_note{
+    width: 500px;
+    padding: 15px 10px 5px 10px;
+    margin: 20px auto;
+  }
+  .my_notes h1{
+    color: #34495e;
+  }
+  .my_notes p{
+    color: grey;
+  }
+  form{
+    min-height: 50px;
+    color: #ecf0f1;
+    padding: 15px 10px 5px 10px;
+    box-shadow: 3px 5px 15px -5px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 5px 5px 25px -5px black(0,0,0,0.5);
+    border-color: black;
+  }
+  input{
+    width: 100%;
+    line-height: 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    margin: 10px 0;
+    font-weight: bold;
+  }
+  textarea{
+    width: 100%;
+    line-height: 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    margin: 10px 0;
+    
+  }
+  textarea::placeholder {
+    color: rgb(89, 86, 86);
+    }
+    
+  .MuiButton-root{
+  width: 30px;
+  height: 50px;
+  position: absolute;
+  bottom: -28px;
+  left: 400px;
+  cursor: pointer;
+  background-color: #fff !important;
+  border-radius: 50% !important;
+  }
+  .MuiButton-root .plus-sign{
+    font-size: 45px !important;
+    font-weight: 900;
+    color: #f4b000;
+    cursor: pointer;
+    z-index: 222;
+    background: transparent;
+  }
+  .MuiButton-root:hover .plus-sign:hover {
+    background-color: #f4b400;
+  }
+  .plus-sign{
+    border-radius: 50%;
+    
+  }
+  .MuiButton-root:hover .plus-sign{
+    color: #fff;
+    background: transparent;
+  }
+  .note{
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px;
+    padding: 10px;
+    width: 283px;
+    margin: 16px;
+   float: left;
+  }
+  .note h1{
+    font-size: 1.1em;
+    margin-bottom: 6px;
+    
+  }
+  .note p{
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  .note .btn{
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    border: none;
+    width: 50px;
+   color:#f4b400 ;
+    height: 50px;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+    border-radius: 50%;
+  
+  }
+  .deleteIcon{
+    width: 0.7em;
+    height: 0.7em;
+    
+  }
+  .note .btn:hover{
+    background-color: #f5ba13;
+  }
+  .note .btn:hover .deleteIcon{
+    color: #fff;
+  }
+  .btn{
+    box-shadow: 0 2px 4px black;
+  }
+  footer{
+    position: fixed;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f5ba13;
+    color: black;
+    text-align: center;
+    font-size: large;
+    height: 30px;
+    padding-top: 5px;
+  }
